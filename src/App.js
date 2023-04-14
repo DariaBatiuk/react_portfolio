@@ -31,7 +31,7 @@ function App() {
 
       <div className="app__main_page_container">
         <Routes>
-          <Route index path="/" element={<Home />} />
+          <Route index path="/react_portfolio" element={<Home />} />
         </Routes>
         <Routes>
           <Route path="/about" element={<About />} />
